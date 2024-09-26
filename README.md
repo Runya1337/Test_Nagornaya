@@ -29,12 +29,12 @@
 
 После установки вы можете использовать команду url_checker в терминале:
 ```bash 
-url_checker https://google.com https://www.facebook.com notalink
+url_checker https://google.com https://www.facebook.com wrongstring
 ```
 Пример вывода:
 
 ```bash
-Строка "notalink" не является ссылкой.
+Строка "wrongstring" не является ссылкой.
 {
     "https://google.com": {
         "GET": 301,
