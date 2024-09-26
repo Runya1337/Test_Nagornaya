@@ -1,0 +1,57 @@
+# Скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Директории виртуальных окружений
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+env.bak/
+.venv/
+
+# Логи и отчёты
+*.log
+coverage.xml
+htmlcov/
+.coverage
+.tox/
+.cache
+
+# Настройки IDE и редакторов
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы тестирования
+.pytest_cache/
+.hypothesis/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы установки
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info
+.Python
+lib/
+lib64/
+
+# Файлы PEP 582
+__pypackages__/
+
+# Миграции базы данных (если применимо)
+migrations/
